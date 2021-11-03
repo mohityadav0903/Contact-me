@@ -28,8 +28,8 @@ const mailoptions ={
 }
 const clientmail ={
     to:req.body.Email,
-    subject: "Thanks for contacting Yadav marketings",
-    text: "We have got your message. We will contact you soon."
+    subject: "Thanks for contacting Mohit Yadav",
+    text: "I have got your message. I will contact you soon."
 }
 transport.sendMail(mailoptions,(error,info)=>{
     if(error){
